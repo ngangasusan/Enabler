@@ -1,5 +1,6 @@
 import {animals, shapes, numbers, sounds, fruits, bodyParts, alphabets, color} from "./assets";
 
+//define categories
 const categories = [
     {
         image: animals,
