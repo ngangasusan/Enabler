@@ -18,12 +18,20 @@ const Question = () => {
     const Navigate = useNavigate();
     const email = sessionStorage.getItem("Email");
 
+    const playMusic = ()=>{
+        const audio = new Audio(music);
+        audio.loop = true;
+        audio.volume = 0.1;
+        audio.play()
+    }
+
     // Protect this route
     // Check for login token
     useEffect(() => {
         const authToken = sessionStorage.getItem("Auth Token");
         if (authToken) {
             Navigate(`/quizzes/${category}`);
+            playMusic();
         } 
         if(!authToken) {
             Navigate("/login");
