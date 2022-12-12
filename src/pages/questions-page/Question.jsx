@@ -7,6 +7,7 @@ import { useState, useEffect } from "react";
 import getRandomItem from "../../utilities/getRandom";
 import shuffleArray from "../../utilities/shuffleArray";
 import uniqid from "uniqid";
+import {music} from "../../assets"
 
 const Question = () => {
     const {category} = useParams();
