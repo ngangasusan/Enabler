@@ -2,7 +2,7 @@ import './App.css'
 import {Login, Signup} from "./components"
 import {Routes, Route} from "react-router-dom"
 import {Landing, Question} from "./pages"
-
+// Define routes module
 function App() {
   return (
     <div className="game">
