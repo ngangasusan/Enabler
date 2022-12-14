@@ -9,6 +9,7 @@ const shapesStructure = "Choose the image with";
 const animalsStructure = "Select the picture with";
 const colorsStructure = "Select the object with color";
 const questions = {
+    //define shapes questions
     shapes: {
         qns: [
             {
