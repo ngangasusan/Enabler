@@ -30,10 +30,12 @@ const Question = () => {
     // Check for login token
     useEffect(() => {
         const authToken = sessionStorage.getItem("Auth Token");
+        // if token exists redirect to questions
         if (authToken) {
             Navigate(`/quizzes/${category}`);
             playMusic();
         } 
+        //if token does not exists redirect to log in
         if(!authToken) {
             Navigate("/login");
         }
