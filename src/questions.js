@@ -3,11 +3,11 @@ import {
     pigeon, cat, puppy, squirrel,
     number1, number2, number3, number4,
     pink, green, orange,
-    hands, kneel, feet, arm, banana, orange_fruit, pineapple,apple
+    hands, kneel, feet, arm, banana, orange_fruit, pineapple,apple,letterA,letterQ,letterP,letterW
 } from './assets';
 const shapesStructure = "Choose the image with";
 const animalsStructure = "Select the picture with";
-const colorsStructure = "Select the object with color";
+const colorsStructure = "Select the item with color";
 const questions = {
     //define shapes questions
     shapes: {
@@ -232,6 +232,45 @@ const questions = {
             }
         ]
     },
+    //Alphabets
+    alphabets: {
+        qns: [
+            {
+                qn: `${animalsStructure} letter A`,
+                ans: "letterA"
+            },
+            {
+                qn: `${animalsStructure} letter P`,
+                ans: "letterP"
+            },
+            {
+                qn: `${animalsStructure} letter W`,
+                ans: "letterW"
+            },
+            {
+                qn: `${animalsStructure} letter Q`,
+                ans: "letterQ"
+            },
+        ],
+        images: [
+            {
+                image: letterA,
+                label: "letterA"
+            },
+            {
+                image: letterP,
+                label: "letterP"
+            },
+            {
+                image: letterW,
+                label: "letterW"
+            },
+            {
+                image: letterQ,
+                label: "letterQ"
+            }
+        ]
+    }
 }
 
 export default questions;
