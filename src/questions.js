@@ -3,7 +3,7 @@ import {
     pigeon, cat, puppy, squirrel,
     number1, number2, number3, number4,
     pink, green, orange,
-    hands, kneel, feet, arm,
+    hands, kneel, feet, arm, banana, orange_fruit, pineapple,apple
 } from './assets';
 const shapesStructure = "Choose the image with";
 const animalsStructure = "Select the picture with";
@@ -191,7 +191,47 @@ const questions = {
                 label: "hands"
             }
         ]
-    }
+    },
+
+    //fruits
+    fruits: {
+        qns: [
+            {
+                qn: `${shapesStructure} an apple`,
+                ans: "apple"
+            },
+            {
+                qn: `${shapesStructure} banana`,
+                ans: "banana"
+            },
+            {
+                qn: `${shapesStructure} an orange`,
+                ans: "orange-fruit"
+            },
+            {
+                qn: `${shapesStructure} a pineapple`,
+                ans: "pineapple"
+            },
+        ],
+        images: [
+            {
+                image: apple,
+                label: "apple"
+            },
+            {
+                image: banana,
+                label: "banana"
+            },
+            {
+                image: orange_fruit,
+                label: "orange"
+            },
+            {
+                image: pineapple,
+                label: "pineapple"
+            }
+        ]
+    },
 }
 
 export default questions;

@@ -1,4 +1,4 @@
-import {animals, shapes, numbers, sounds, fruits, bodyParts, alphabets, color} from "./assets";
+import {animals, shapes, numbers, sounds, fruits, bodyParts, alphabets, color,banana,apple,orange_fruit,pineapple} from "./assets";
 // Questioms categories
 const categories = [
     {
@@ -33,6 +33,13 @@ const categories = [
         image: color,
         name: "Colors"
     }
+
+
+
+
+
+        
+    
 ]
 
 export default categories;

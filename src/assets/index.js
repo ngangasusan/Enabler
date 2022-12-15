@@ -31,3 +31,10 @@ export {default as feet} from "./feet.png";
 export {default as arm} from "./arm.png";
 export {default as music } from "./music.mp3";
 export {default as close } from "./close-box.png";
+ //fruits module
+ export {default as banana} from "./banana.png";
+ export {default as apple} from "./apple.png";
+ export {default as orange_fruit} from "./orange-fruit.png";
+ export {default as pineapple} from "./pineapple.png";
+
+
