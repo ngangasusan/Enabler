@@ -6,4 +6,3 @@ function getRandomItem(array) {
 }
 
 export default getRandomItem;
-  
